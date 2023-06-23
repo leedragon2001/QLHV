@@ -1,0 +1,33 @@
+body {
+  margin-bottom: $body-margin-bottom;
+  background-color: $body-background-color;
+}
+
+p {
+  margin: $p-margin;
+}
+
+h2 {
+  margin: $h2-margin;
+}
+
+// strong {
+//   font-weight: $strong-font-weight;
+// }
+
+main {
+  background-color: $main-background-color;
+  border-top-left-radius: $main-border-radius;
+  border-top-right-radius: $main-border-radius;
+}
+
+.main-color {
+  background: $main-color-background;
+}
+
+.phoneBanner {
+  background-color: $phoneBanner-background-color;
+  border-top-left-radius: $phoneBanner-border-radius;
+  border-top-right-radius: $phoneBanner-border-radius;
+  align-items: center;
+}
